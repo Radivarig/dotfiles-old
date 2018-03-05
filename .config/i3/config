@@ -180,6 +180,8 @@ bindsym $mod+Ctrl+Shift+semicolon resize shrink width $resizeSmall px or $resize
 # finds out, if available)
 bar {
         position top
-        status_command i3status
+        status_command ~/.i3status_with_focused_title.sh
         tray_output primary
 }
+
+for_window [class="^.*"] border pixel 1
