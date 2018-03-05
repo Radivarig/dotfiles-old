@@ -8,6 +8,9 @@ case $- in
       *) return;;
 esac
 
+# disable "flow control" (ctrl+S, ctrl+Q), to free up ctrl+S for forward search
+stty -ixon
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
