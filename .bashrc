@@ -17,8 +17,8 @@ stty -ixon
 # unlimited history
 HISTSIZE=HISTFILESIZE="c'mon buddy"
 # prevent override from other shells with default. bashrc that trim history
-touch .history
 HISTFILE="$HOME/.history"
+touch $HISTFILE
 # skip saving some dangerous commands
 HISTIGNORE=' *:rm *:rmdir *:sudo rm *:sudo rmdir *'
 # connects histories of all terminals
