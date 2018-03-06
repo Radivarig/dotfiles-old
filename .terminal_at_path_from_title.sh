@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 # opens a new terminal at path contained in the focused window title
 
