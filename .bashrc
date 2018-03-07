@@ -31,6 +31,9 @@ PS1='\u@\h \w\[\033[32m\]`parse_git_branch`\[\033[00m\]\n$ '
 # aliases
 . ~/.bash_aliases.sh
 
+# set for ~/.terminal_at_path_from_title.sh
+set_current_dir_as_title='echo -ne "\033]0; $(dirs)/\007"'
+PROMPT_COMMAND="$set_current_dir_as_title;$PROMPT_COMMAND"
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
