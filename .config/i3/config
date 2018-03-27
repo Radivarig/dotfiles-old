@@ -185,3 +185,5 @@ bar {
 }
 
 for_window [class="^.*"] border pixel 1
+
+exec --no-startup-id compton -b
