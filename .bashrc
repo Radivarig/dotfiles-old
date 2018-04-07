@@ -19,6 +19,9 @@ HISTSIZE=HISTFILESIZE="c'mon buddy"
 # prevent override from other shells with default. bashrc that trim history
 HISTFILE="$HOME/.history"
 touch $HISTFILE
+# dedupe lines and keep last occurance
+tac $HISTFILE | awk '!x[$0]++' | tac > "${HISTFILE}__tmp"; mv "${HISTFILE}__tmp" $HISTFILE
+
 # skip saving some dangerous commands
 HISTIGNORE=' *:rm *:rmdir *:sudo rm *:sudo rmdir *'
 # connects histories of all terminals
