@@ -5,12 +5,16 @@
         all = buildEnv {
             name = "all";
             paths = [
-            	git
-            	nodejs
-            	tldr
+                git
+                tldr
+                zip unzip
 
-            	feh
-            	compton
+                ffmpeg
+                imagemagick
+                # simplescreenrecorder
+
+                feh
+                compton
 
                 xsel
                 xbindkeys
