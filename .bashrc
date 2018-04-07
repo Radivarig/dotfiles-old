@@ -3,6 +3,8 @@
 # for examples
 
 # set TERMINAL=xterm
+ANDROID_HOME=/usr/lib/android-sdk
+PATH="${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools"
 
 # If not running interactively, don't do anything
 case $- in
