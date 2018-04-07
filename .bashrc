@@ -16,7 +16,7 @@ stty -ixon
 ## pumped up history hacks
 # unlimited history
 HISTSIZE=HISTFILESIZE="c'mon buddy"
-# prevent override from other shells with default. bashrc that trim history
+# prevent override from other shells with default .bashrc that truncates history
 HISTFILE="$HOME/.history"
 touch $HISTFILE
 # dedupe lines and keep last occurance
