@@ -20,6 +20,7 @@
                 xbindkeys
                 xdotool
 
+                ranger
             ];
         };
     };

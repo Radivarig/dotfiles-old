@@ -19,3 +19,5 @@ alias gitd="git diff"
 alias gitb="git branch"
 alias gitr="git reflog"
 alias gitc="git commit"
+
+alias r="ranger"
