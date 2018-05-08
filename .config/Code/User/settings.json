@@ -1,4 +1,5 @@
 {
     "window.title": "${activeEditorLong}",
     "editor.tabSize": 2,
+    "tslint.autoFixOnSave": true,
 }
