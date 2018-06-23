@@ -2,4 +2,5 @@
     "window.title": "${activeEditorLong}",
     "editor.tabSize": 2,
     "tslint.autoFixOnSave": true,
+    "python.pythonPath": "/home/radivarig/anaconda3/bin/python"
 }
