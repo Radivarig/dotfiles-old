@@ -21,6 +21,10 @@
                 xdotool
 
                 ranger
+                tree
+
+		swi-prolog
+
             ];
         };
     };

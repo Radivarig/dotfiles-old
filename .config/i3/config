@@ -42,10 +42,10 @@ bindsym $mod+d exec dmenu_run -i
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-set $Left Left
-set $Down Down
-set $Up Up
-set $Right Right
+set $Left h
+set $Down j
+set $Up k
+set $Right l
 
 # change focus
 bindsym $mod+$Left focus left
@@ -60,7 +60,7 @@ bindsym $mod+Shift+$Up move up
 bindsym $mod+Shift+$Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+b split h
 
 # split in vertical orientation
 bindsym $mod+v split v

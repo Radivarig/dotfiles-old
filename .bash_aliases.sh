@@ -1,5 +1,6 @@
 #!/bin/sh
-alias l='ls -lAh --group-directories-first --color=auto'
+alias l='ls -a --group-directories-first --color=auto'
+alias ll='ls -lAh --group-directories-first --color=auto'
 alias lsblk='lsblk -o NAME,TYPE,FSTYPE,LABEL,UUID,SIZE,MOUNTPOINT'
 alias grep='grep --color=auto'
 
@@ -16,6 +17,7 @@ alias pingu="ping -c 1 google.com"
 alias gits="git status"
 alias gitl="git log"
 alias gitd="git diff"
+alias gitds="git diff --staged"
 alias gitb="git branch"
 alias gitr="git reflog"
 alias gitc="git commit"

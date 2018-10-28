@@ -1,2 +1,6 @@
 xset r rate 200 20 &
 xbindkeys &
+
+export WALLPAPERS_PATH=/media/sf_SharedVB/wallpapers
+export WALLPAPERS_SLEEP=5m
+./.rotate_wallpapers.sh &

@@ -18,5 +18,7 @@ fi
 
 # set PATH so it includes user's private bin directories
 PATH="$PATH:$HOME/bin:$HOME/.local/bin:$HOME/node_modules/.bin"
+CHROME_BIN=/usr/bin/chromium-browser
 
 if [ -e /home/radivarig/.nix-profile/etc/profile.d/nix.sh ]; then . /home/radivarig/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+export PATH='/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin':"$PATH"
